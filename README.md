@@ -33,7 +33,7 @@ Interested in python game development with pygame and want to learn from this ap
 
 
 ## Team Members
-- Abhigyan Sing RA1911003010607
+- Abhigyan Singh RA1911003010607
 - Advaith Suresh RA1911003010604
 - Kusum Grandhi RA1911003010597
 - Suraj Mishra RA1911003010611
