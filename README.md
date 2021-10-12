@@ -32,6 +32,12 @@ Interested in python game development with pygame and want to learn from this ap
 - Playable between two clients over the server via TCP-IP connection.
 
 
+##Team Members
+- Abhigyan Sing RA1911003010607
+- Advaith Suresh RA1911003010604
+- Kusum Grandhi RA1911003010597
+- Suraj Mishra RA1911003010611
+
 <!-- 
 
 Click [here](CHANGELOG.md) to see full changelog. -->
