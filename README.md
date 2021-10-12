@@ -5,12 +5,12 @@ This is a **fully featured chess app** written purely in Python using Pygame Lib
 
 Click [here](screenshots/screenshots.md) to see more few screenshots of My-PyChess in action!
 
-Any bug-reports, suggestions or questions, you can leave it in the github issues section.
+<!-- Any bug-reports, suggestions or questions, you can leave it in the github issues section.
 If you want to directly communicate with me, you can mail me: itsankith26@gmail.com
 
-The My-PyChess project is available under MIT License. The MIT Licence applies to all the resources I have created in this project. This includes all the python files and text files. But some resources(images, sounds and font file) are not created by me, I have downloaded these from the internet. I have given credits to the authors of these resources in [this file](res/CREDITS.txt). All these resources maintain the original licenses that the authors have leased them under (These licenses permit my use of the respective resources in this project).
+The My-PyChess project is available under MIT License. The MIT Licence applies to all the resources I have created in this project. This includes all the python files and text files. But some resources(images, sounds and font file) are not created by me, I have downloaded these from the internet. I have given credits to the authors of these resources in [this file](res/CREDITS.txt). All these resources maintain the original licenses that the authors have leased them under (These licenses permit my use of the respective resources in this project). -->
 
-## Getting started, with python source code(All OS support)
+<!-- ## Getting started, with python source code(All OS support)
 - Make sure you have **python** and **pygame** installed and working.
 - Clone this repository (or download zip file and extract it).
 - Then, run the **pychess.py** file. Trying to run any other file will not run the game.
@@ -24,48 +24,33 @@ The My-PyChess project is available under MIT License. The MIT Licence applies t
 - Those who are running older versions of this app, can upgrade to the latest version by the same method.
 
 Interested in python game development with pygame and want to learn from this applicaton - I have released a [lite implementation](https://github.com/ankith26/My-PyChess-lite/) of My-PyChess, that focuses just on chess programming - free from all the code for menus, singleplayer, online etc. 
-
+ -->
+ 
 ## Features
 - Clean GUI with a lot of menus for ease of use.
-- Allows users to make only valid move, does not allow users to make moves that puts the user's king at check.
-- Detects check, checkmate, stalemate and informs user.
-- Supports things like castling, pawn promotion, enpassent etc.
-- Supports saving and loading games.
-- Has single player mode with two different types, levels and ability to play against the stockfish chess engine.
-- Has online gamemode, play chess with anyone in the world.
-- Has a chess game timer.
-- Has a preference menu where you can customize the app to meet your preferences.
-- Has a chess howto, about menu and stockfish install/configure menu to make things easy for users.
+- Allows users to make only valid moves and follows all traditional rules of chess.
+- Playable between two clients over the server via TCP-IP connection.
 
-## What's new in this Version 3.2
-- Added a Back-Button, to go back to the previous menu. In older versions, the quit button was used for this purpose, but from now on a dedicated button to go back is there in the top-right corner. The quit button will now be used only to exit the app.
-- Added a game timer to multiplayer mode, with a new menu to setup the timer.
-- Fixed bugs and made many additions and improvements to the client-server in chess online gamemode.
-- Made optimisations to core chess module and gui module.
-- Added a chess hotwto.
-- Minor improvements to game sounds and textbox.
-- Upgraded preference menu and made the loadgame interface more robust.
-- Several other minor changes and improvements made.
 
-## Highlights of v3.x, the latest major release.
-- The code was revamped and restructured, fixed bugs and made **major performance improvements**.
-- **Online play** was added. This features a online lobby and support upto 10 people to play chess.
-- Singleplayer saw big upgrades: Firstly, a decent **python chess engine** that playes chess was added.
-- You can play against **stockfish chess engine** (see https://stockfishchess.org). My-PyChess will act as an interface to give you this singleplayer mode.
-- En-Passant in chess, undo move, screenflip and sounds were added.
-- Lots of changes made to GUI.
+## Team Members
+- Abhigyan Singh RA1911003010607
+- Advaith Suresh RA1911003010604
+- Kusum Grandhi RA1911003010597
+- Suraj Mishra RA1911003010611
 
-Click [here](CHANGELOG.md) to see full changelog.
+<!-- 
 
+Click [here](CHANGELOG.md) to see full changelog. -->
+<!-- 
 ## Online Gameplay
 - You can self-host the My-PyChess online server(read more [here](onlinehowto.txt) ).
 - Apart from that, I have launched a public My-PyChess server for PUBLIC BETA TESTING, which ANYONE in the world can connect to.
 
-- Caveat: The server is on a IPv6-only network. This means that your network MUST SUPPORT IPv6 to connect. If your network does not support IPv6, try any other internet network. In my experience, many mobile networks are supporting IPv6 technology, so try mobile network tethering/hotspots.
+- Caveat: The server is on a IPv6-only network. This means that your network MUST SUPPORT IPv6 to connect. If your network does not support IPv6, try any other internet network. In my experience, many mobile networks are supporting IPv6 technology, so try mobile network tethering/hotspots. -->
 
-### How to test wether your network supports IPv6
-- A reliable way to test would be to enter "ipv6.google.com" in the browser window. If google pops up, then IPv6 is working for you.
-
+<!-- ### How to test wether your network supports IPv6
+- A reliable way to test would be to enter "ipv6.google.com" in the browser window. If google pops up, then IPv6 is working for you. -->
+<!-- 
 ## How to customise the game using preferences
 - In the main game menu, click preferences.
 - Hover over each name to know more about them.
@@ -82,3 +67,4 @@ Click [here](CHANGELOG.md) to see full changelog.
 ## What's Next
 - I prefer to work on this app locally, I do not commit to github for every change I make. I only commit when a new version is available or when I update any readme, etc.
 - For the next version (v3.3), I plan to release less of new features and focus on the GUI along with any bugfixes or performance improvements. Mainly because v3.2 has come with a lot of code refactoring, new features and changes to the backend, and GUI hasn't recieved much attention by me in this release.
+ -->
