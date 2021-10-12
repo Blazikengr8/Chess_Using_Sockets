@@ -3,8 +3,8 @@ This is a **fully featured chess app** written purely in Python using Pygame Lib
 
 ![main image](screenshots/main.jpg)
 
-Click [here](screenshots/screenshots.md) to see more few screenshots of My-PyChess in action!
-
+<!-- Click [here](screenshots/screenshots.md) to see more few screenshots of My-PyChess in action!
+ -->
 <!-- Any bug-reports, suggestions or questions, you can leave it in the github issues section.
 If you want to directly communicate with me, you can mail me: itsankith26@gmail.com
 
