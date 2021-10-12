@@ -359,7 +359,7 @@ def initPlayerThread(sock):
     log("New client is attempting to connect.")
     total += 1
     
-    if read(sock, 3) != "PyChess":
+    if read(sock, 3) != "Chessly":
         log("Client sent invalid header, closing connection.")
         write(sock, "errVer")
 
@@ -394,7 +394,7 @@ def initPlayerThread(sock):
     sock.close()
 
 # Initialize the main socket
-log(f"Welcome to My-Pychess Server, {VERSION}\n")
+log(f"Welcome to Chessly Server, {VERSION}\n")
 log("INITIALIZING...")
 
 if IPV6:

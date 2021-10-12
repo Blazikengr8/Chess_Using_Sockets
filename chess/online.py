@@ -34,7 +34,7 @@ def main(win, addr, load, ipv6=False):
 
     thread = threading.Thread(target=bgThread, args=(sock,))
     thread.start()
-    write(sock, "PyChess")
+    write(sock, "Chessly")
     write(sock, VERSION)
 
     ret = 1

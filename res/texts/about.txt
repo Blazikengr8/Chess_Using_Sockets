@@ -1,20 +1,15 @@
-My-Pychess was started by me as a small hobby project, I
-had hoped I would finish it within a month. But, I could
-never stop on improving it. I kept on adding more and more
-features which I still do today. I follow 4 principles:
-    
-      "Fix a lot of functionality in a small piece of code."
-I like to have a lot of features and keep the code very small.
+Chessly is a project created by our team to display the
+Principles of socket programming and also to create a 
+fun game of chess in the process.
+The features of this project are:
 
-          "Do not compromise on readability of code."
-This is important, not only for others to read your code, but
-even for you.
+It uses TCP-IP protocol and can also handle multiple 
+clients.
+It has a lobby system to match multiple opponents and
+conduct matches .
 
-    "Try to do as much testing as you can to avoid bugs."
-Bugs are literally the worst. I am always trying to minimise
-them. 
-
-
-                          Lastly and most importantly,
-                                "Enjoy what you do."
-                          That's what keeps me going.
+Team Members:
+Abhigyan Singh(RA1911003010607)
+Advaith Suresh(RA1911003010604)
+Kusum Grandhi (RA1911003010597)
+Suraj Mishra  (RA1911003010611)

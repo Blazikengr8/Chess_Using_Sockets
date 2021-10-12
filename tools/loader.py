@@ -158,8 +158,8 @@ class LOADGAME:
     PAGE = [medium.render("Page " + str(i), True, WHITE) for i in range(1, 5)]
 
 class MAIN:
-    HEADING = head.render("PyChess", True, WHITE)
-    VERSION = vsmall.render("Version 3.2", True, WHITE)
+    HEADING = head.render("Chessly", True, WHITE)
+    VERSION = vsmall.render("Version 1.0", True, WHITE)
     ICON = pygame.image.load(os.path.join("res", "img", "icon.gif"))
     BG = [BGSPRITE.subsurface((i * 500, 0, 500, 500)) for i in range(4)]
 
@@ -385,7 +385,7 @@ class STOCKFISH:
     NO = small.render("No", True, WHITE)
 
 class ABOUT:
-    HEAD = large.render("About PyChess", True, WHITE)
+    HEAD = large.render("About Chessly", True, WHITE)
 
     with open(os.path.join("res", "texts", "about.txt"), "r") as f:
         TEXT = [vsmall.render(i, True, WHITE) for i in f.read().splitlines()]

@@ -21,13 +21,11 @@ def showScreen(win, sel):
     for cnt, i in enumerate(ONLINEMENU.TEXT):
         win.blit(i, (40, 100 + cnt*18))
     
-    rounded_rect(win, (255, 255, 255), (150, 230, 110, 30), 10, 3)
-    win.blit(ONLINEMENU.CONNECT, (150, 230))
     
     rounded_rect(win, (255, 255, 255), (300, 350, 110, 30), 10, 3)
     win.blit(ONLINEMENU.CONNECT, (300, 350))
     
-    pygame.draw.rect(win, (255, 255, 255), (130 + sel*160, 460, 40, 20), 3)
+   # pygame.draw.rect(win, (255, 255, 255), (130 + sel*160, 460, 40, 20), 3)
     
     
 # This is the main function, called from main menu
