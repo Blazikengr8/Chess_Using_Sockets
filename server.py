@@ -2,8 +2,6 @@
 This file is a part of My-PyChess application.
 To run the online server, run this script.
 
-For more information, see onlinehowto.txt
-
 IMPORTANT NOTE:
     Server.py needs atleast Python v3.6 to work.
 """
@@ -19,10 +17,6 @@ from urllib.request import urlopen
 # are given. Do not change if you do not know what you are doing.
 LOG = False
 IPV6 = False
-
-#=====================================================
-#        DO NOT MODIFY ANYTHING BELOW THIS!!
-#=====================================================
 
 # Define other constants
 VERSION = "v3.2.0"
